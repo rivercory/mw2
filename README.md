@@ -70,7 +70,7 @@ For additional reference on best practices and features, you can explore the web
 
 ## 🚀 How to Contribute to This Project 🚀
 
-Check <a href="./Contributing.md">Contributing.md</a>
+Check <a href="./CONTRIBUTING.md">CONTRIBUTING.md</a>
 
 ## 📢Contributors📢
 
