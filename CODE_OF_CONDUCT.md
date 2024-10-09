@@ -15,6 +15,7 @@ We pledge to act in ways that contribute to an open, welcoming, diverse, inclusi
 To ensure a positive experience for everyone involved in **Medical-Website**, all members must adhere to the following standards:
 
 ### Positive Behavior:
+
 - **Respect for New Contributors**: Welcome beginners with patience and encouragement as they make their first open-source contributions.
 - **Constructive Feedback**: Offer feedback that is aimed at helping others improve and learn, rather than discouraging them.
 - **Collaboration**: Be willing to work together and provide assistance to those who are new to Git, GitHub, and open-source development.
@@ -23,6 +24,7 @@ To ensure a positive experience for everyone involved in **Medical-Website**, al
 - **Respect for gssoc24 Values**: Follow the gssoc24 guidelines, emphasizing genuine contributions and discouraging low-quality or spammy pull requests.
 
 ### Unacceptable Behavior:
+
 - **Harassment**: Any form of harassment, including derogatory comments, trolling, or personal attacks.
 - **Discrimination**: Discriminatory remarks or behavior based on personal identity, beliefs, or background.
 - **Low-Quality Contributions**: Deliberately making low-quality or spam pull requests to game the gssoc24 system. Contributions should add real value to the project.
@@ -72,14 +74,17 @@ If a participant is found to have violated this Code of Conduct, the community l
 Community leaders will follow these enforcement guidelines when determining the appropriate consequences for violations of this Code of Conduct:
 
 1. **Correction**:
+
    - **Community Impact**: A minor violation that causes minimal disruption.
    - **Consequence**: A private conversation to clarify the violation and offer guidance for improving behavior.
 
 2. **Warning**:
+
    - **Community Impact**: A moderate violation that negatively affects other community members or the goals of gssoc24.
    - **Consequence**: A formal warning that outlines future expectations for behavior.
 
 3. **Temporary Suspension**:
+
    - **Community Impact**: A significant violation that disrupts the project’s focus on genuine contributions and inclusion.
    - **Consequence**: Temporary exclusion from the project with the possibility of reinstatement after a review.
 

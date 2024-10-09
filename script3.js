@@ -1,41 +1,41 @@
-function validateInputs(){
-    var fullName=document.getElementById('name').value;
-    var email=document.getElementById('email').value;
-    var password=document.getElementById('password').value;
-    if (fullName==='') {
+function validateInputs() {
+    var fullName = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    if (fullName === '') {
         alert("Name is required");
         return false;
-    }else{
+    } else {
         true;
     }
-    if (email===''){
+    if (email === '') {
         alert("Email is required");
         return false;
     }
-    else{
+    else {
         true;
     }
-    if (password===''){
+    if (password === '') {
         alert("password is required");
         return false;
-    }else{
+    } else {
         alert("Registered successfully");
     }
 }
-function validateInputs1(){
-    var email=document.getElementById('email').value;
-    var password=document.getElementById('password').value;
-    if (email===''){
+function validateInputs1() {
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    if (email === '') {
         alert("Email is required");
         return false;
     }
-    else{
+    else {
         true;
     }
-    if (password===''){
+    if (password === '') {
         alert("password is required");
         return false;
-    }else{
+    } else {
         alert("Registered successfully");
     }
 }

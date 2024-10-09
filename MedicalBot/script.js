@@ -10,8 +10,8 @@ let userMessage = null; // To store the user's message
 const createChatLi = (message, className) => {
   const chatLi = document.createElement("li");
   chatLi.classList.add("chat", className); // Adds the class (either incoming or outgoing)
-  
-  let chatContent = className === "outgoing" 
+
+  let chatContent = className === "outgoing"
     ? `<p>${message}</p>` // Outgoing message
     : `<span class="material-symbols-outlined">smart_toy</span><p>${message}</p>`; // Incoming bot message
 
@@ -23,12 +23,12 @@ const createChatLi = (message, className) => {
 const handleChat = () => {
   userMessage = chatInput.value.trim(); // Get user input and trim any extra spaces
   if (!userMessage) return; // Don't send empty messages
-  
+
   // Create and display the outgoing user message
   const userChatLi = createChatLi(userMessage, "outgoing");
   chatbox.appendChild(userChatLi);
   chatbox.scrollTo(0, chatbox.scrollHeight); // Scroll chatbox to bottom
-  
+
   // Clear the input box after sending a message
   chatInput.value = "";
 

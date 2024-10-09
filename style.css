@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --blue: #4385a9;
 }
 
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
@@ -14,14 +15,14 @@
     transition: .2s linear;
 }
 
-html{
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
 
-label{
+label {
     position: absolute;
     width: 45px;
     height: 22px;
@@ -30,62 +31,66 @@ label{
     border: 2px solid;
     border-radius: 20px;
 }
-label:before{
+
+label:before {
     position: absolute;
     content: '';
-    width:20px;
+    width: 20px;
     height: 20px;
     border-radius: 50%;
     background: #000;
     cursor: pointer;
     transition: 0.4s;
 }
-label.active:before{
+
+label.active:before {
     left: 24px;
     background: #fff;
 }
 
-body.night{
+body.night {
     background: #000;
     color: #fff;
 }
-body.night .icons-container{
+
+body.night .icons-container {
     background: #101010;
     color: #fff;
 }
 
-body.night .bg-boz{
+body.night .bg-boz {
     background: #101010;
     color: #fff;
 }
 
-body.night header{
+body.night header {
     background: #101010;
     color: #fff;
 }
-body.night header a{
+
+body.night header a {
     color: #101010;
     color: #fff;
 }
 
-section{
+section {
     padding: 2rem 9%;
 }
 
-.heading{
+.heading {
     text-align: center;
     font-size: 4rem;
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
-    background: rgba(255,51,153,0.05);
+    background: rgba(255, 51, 153, 0.05);
 }
 
-.heading span{
+.heading span {
     color: var(--blue);
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
@@ -96,42 +101,43 @@ section{
     font-size: 1.7rem;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--blue);
 }
 
-header{
-        position: fixed;
-        top: 0; left: 0; right: 0;
-        width: 100%;
-        background: rgba(243, 239, 239, 0.8);
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        z-index: 1100;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(243, 239, 239, 0.8);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1100;
 }
 
 
-.logo
-{
-    height:50px;
-    margin-left:20px;
+.logo {
+    height: 50px;
+    margin-left: 20px;
 }
-.logo img
-{
+
+.logo img {
     width: 100%;
     height: 100%;
-    border:none;
+    border: none;
 }
 
 
-.dark-btn-navbar{
-   padding-left: 6em;
-   margin-bottom: 5em;
+.dark-btn-navbar {
+    padding-left: 6em;
+    margin-bottom: 5em;
 }
 
-header .navbar a{
+header .navbar a {
     font-size: 2rem;
     padding: 0 1.5rem;
     color: #282727;
@@ -152,21 +158,21 @@ header .navbar a{
 
 }
 
-header #toggler{
+header #toggler {
     display: none;
 }
 
-header .fa-bars{
+header .fa-bars {
     font-size: 20px;
-    color:#333;
+    color: #333;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     cursor: pointer;
-    border: .1rem solid rgba(0,0,0,0.3);
+    border: .1rem solid rgba(0, 0, 0, 0.3);
     display: none;
 }
 
-.home{
+.home {
     /* display: flex; */
     /* align-items: center; */
     min-height: 100vh;
@@ -176,7 +182,7 @@ header .fa-bars{
     padding: 0;
 }
 
-.home .content{
+.home .content {
     max-width: 50rem;
     position: absolute;
     z-index: 1;
@@ -185,28 +191,28 @@ header .fa-bars{
     left: 10%;
 }
 
-.home .content h3{
+.home .content h3 {
     font-size: 5rem;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 4px #ffffff;
 }
 
-.home .content span{
+.home .content span {
     font-size: 3.5rem;
     color: #a7e0ff;
     padding: 1rem 0;
     line-height: 1.5;
 }
 
-.home .content p{
+.home .content p {
     font-size: 1.5rem;
     color: #ffffff;
     padding: 1rem 0;
     line-height: 1.5;
 }
 
-.about .row{
+.about .row {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -215,23 +221,24 @@ header .fa-bars{
     padding-bottom: 3rem;
 }
 
-.about .row .video-container{
+.about .row .video-container {
     flex: 1 1 40rem;
     position: relative;
 }
 
-.about .row .video-container video{
+.about .row .video-container video {
     width: 100%;
     border: 1.5rem solid #fffefe;
     border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     height: 100%;
     object-fit: cover;
 }
 
-.about .row .video-container h3{
+.about .row .video-container h3 {
     position: absolute;
-    top: 50%; transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 3rem;
     background: #fff;
     width: 100%;
@@ -240,16 +247,16 @@ header .fa-bars{
     mix-blend-mode: screen;
 }
 
-.about .row .content{
-    flex:1 1 40rem;
+.about .row .content {
+    flex: 1 1 40rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
     font-size: 3rem;
     color: #333;
 }
 
-.about .row .content p{
+.about .row .content p {
     font-size: 1.5rem;
     color: #999;
     padding: 0.5rem 0;
@@ -257,7 +264,7 @@ header .fa-bars{
     line-height: 1.5;
 }
 
-.icons-container{
+.icons-container {
     background: #eee;
     display: flex;
     flex-wrap: wrap;
@@ -266,46 +273,48 @@ header .fa-bars{
     padding-bottom: 5rem;
 }
 
-.icons-container .icons{
+.icons-container .icons {
     background: #fff;
-    border: 0.1rem solid rgba(0,0,0,0.1);
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
     padding: 2rem;
     display: flex;
     align-items: center;
     flex: 1 1 25rem;
 }
 
-.icons-container .icons h3{
+.icons-container .icons h3 {
     color: #333;
     padding-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
-.icons-container .icons span{
+.icons-container .icons span {
     color: #555;
     font-size: 1.3rem;
 }
 
-ul{
+ul {
     font-size: 18px;
     font-weight: 600;
     gap: 20px;
     margin-left: 20px;
 }
-ul li .nav-link:hover{
+
+ul li .nav-link:hover {
     background: var(--blue);
     color: white;
     border-radius: 30px;
     transition: all 0.5s;
 }
-.card-body{
+
+.card-body {
     position: relative;
     max-width: 7;
     font-size: 25px;
     text-align: center;
 }
 
-.circle{
+.circle {
     position: absolute;
     background-color: var(--blue);
     height: 370px;
@@ -313,19 +322,22 @@ ul li .nav-link:hover{
     top: -20px;
     left: 50px;
     border-radius: 50%;
-    opacity: 0.8;  
+    opacity: 0.8;
 }
-.hero{
+
+.hero {
     position: relative;
     z-index: 1;
 }
 
-.py-5 .card-body .card-title{
+.py-5 .card-body .card-title {
     font-size: 30px;
 }
-.py-5 .card-body .card-subtitle{
+
+.py-5 .card-body .card-subtitle {
     font-size: 60px;
 }
+
 .bg-mavi {
     background-color: var(--blue)
 }
@@ -434,18 +446,18 @@ section {
 .section-title {
     text-align: center;
     padding-bottom: 30px;
-  }
-  
-  .section-title h2 {
+}
+
+.section-title h2 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     color: #2c4964;
-  }
-  
-  .section-title h2::before {
+}
+
+.section-title h2::before {
     content: "";
     position: absolute;
     display: block;
@@ -454,9 +466,9 @@ section {
     background: #ddd;
     bottom: 1px;
     left: calc(50% - 60px);
-  }
-  
-  .section-title h2::after {
+}
+
+.section-title h2::after {
     content: "";
     position: absolute;
     display: block;
@@ -465,23 +477,23 @@ section {
     background: #1977cc;
     bottom: 0;
     left: calc(50% - 20px);
-  }
-  
-  .section-title p {
+}
+
+.section-title p {
     margin-bottom: 0;
-  }
+}
 
 .services .icon-box {
     text-align: center;
-    background: linear-gradient(106deg,#858383,#ffffff);
+    background: linear-gradient(106deg, #858383, #ffffff);
     border: none;
     padding: 20px 20px 20px 20px;
     transition: all ease-in-out 0.5s;
     width: 95%;
     border-radius: 4%;
-  }
-  
-  .services .icon-box .icon {
+}
+
+.services .icon-box .icon {
     margin: 0 auto;
     width: 140px;
     height: 140px;
@@ -493,14 +505,14 @@ section {
     justify-content: center;
     margin-bottom: 20px;
     transform-style: preserve-3d;
-  }
-  
-  .services .icon-box .icon i {
+}
+
+.services .icon-box .icon i {
     color: #fff;
     font-size: 28px;
-  }
-  
-  .services .icon-box .icon::before {
+}
+
+.services .icon-box .icon::before {
     position: absolute;
     content: "";
     left: -8px;
@@ -511,47 +523,47 @@ section {
     border-radius: 20%;
     transition: all 0.3s ease-out 0s;
     transform: translateZ(-1px);
-  }
-  
-  .services .icon-box h4 {
+}
+
+.services .icon-box h4 {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 24px;
-  }
-  
-  .services .icon-box h4 a {
+}
+
+.services .icon-box h4 a {
     color: #4b4d4f;
-  }
-  
-  .services .icon-box p {
+}
+
+.services .icon-box p {
     line-height: 24px;
     font-size: 18px;
     margin-bottom: 0;
-  }
-  
-  .services .icon-box:hover {
+}
+
+.services .icon-box:hover {
     background: #b9cee1;
     border-color: #7b7b7b;
     transform: scale(1.05);
-  }
-  
-  .services .icon-box:hover .icon {
+}
+
+.services .icon-box:hover .icon {
     background: #fff;
-  }
-  
-  .services .icon-box:hover .icon i {
+}
+
+.services .icon-box:hover .icon i {
     color: #1977cc;
-  }
-  
-  .services .icon-box:hover .icon::before {
+}
+
+.services .icon-box:hover .icon::before {
     background: #3291e6;
-  }
-  
-  .services .icon-box:hover h4 a,
-  .services .icon-box:hover p {
+}
+
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
     color: #fff;
-  }
-  
+}
+
 
 
 
@@ -559,29 +571,33 @@ section {
 
 
 /* media queries */
-@media (max-width:991px){
+@media (max-width:991px) {
 
-    html{
+    html {
         font-size: 55%;
     }
 
-    header{
+    header {
         padding: 2rem;
     }
 
-    section{
+    section {
         padding: 2rem;
     }
 
-    .home{
+    .home {
         background-position: left;
     }
-    
+
 }
 
-input[type="text"], input[type="email"], textarea {
-    width: 100%; /* Adjust the width */
-    height: 50px; /* Adjust the height */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    /* Adjust the width */
+    height: 50px;
+    /* Adjust the height */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -590,64 +606,67 @@ input[type="text"], input[type="email"], textarea {
 
 /* Adjust the textarea height specifically */
 textarea {
-    height: 150px; /* Increase height for a larger textarea */
+    height: 150px;
+    /* Increase height for a larger textarea */
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    html .fa-bars{
+    html .fa-bars {
         display: block;
     }
 
-    header .navbar{
+    header .navbar {
         position: absolute;
-        top: 100%; left: 0; right: 0;
+        top: 100%;
+        left: 0;
+        right: 0;
         background: #eee;
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    header #toggler:checked ~ .navbar{
+    header #toggler:checked~.navbar {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .navbar a{
+    header .navbar a {
         margin: 1.5rem;
         padding: 1.5rem;
         background: #fff;
-        border: 0.1rem solid rgba(0,0,0,0.1);
+        border: 0.1rem solid rgba(0, 0, 0, 0.1);
         display: block;
     }
 
-    .home .content h3{
+    .home .content h3 {
         font-size: 5rem;
     }
 
-    .home .content span{
+    .home .content span {
         font-size: 2.5rem;
     }
 
-    .icons-container .icons h3{
+    .icons-container .icons h3 {
         font-size: 2rem;
     }
-    
-    .icons-container .icons span{
+
+    .icons-container .icons span {
         font-size: 1.7rem;
     }
-     
+
 
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
 
-    html{
+    html {
         font-size: 50%;
     }
 
-    .heading{
+    .heading {
         font-size: 3rem;
     }
-    
+
 }
 
 #gallery .image-container {

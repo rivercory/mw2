@@ -1,4 +1,3 @@
-
 # 🌟 Contributing to Our Healthcare Platform
 
 We’re excited that you’re interested in contributing to our Healthcare Platform! Your contributions will help improve access to affordable and quality healthcare. This document provides guidelines to help you get started and contribute effectively.
@@ -10,6 +9,7 @@ We’re excited that you’re interested in contributing to our Healthcare Platf
 
 2. **Clone Your Fork**  
    Clone your forked repository to your local machine using:
+
    ```bash
    git clone https://github.com/<your-username>/Healthcare-Platform.git
    cd Healthcare-Platform
@@ -25,6 +25,7 @@ We’re excited that you’re interested in contributing to our Healthcare Platf
 
 1. **Create a New Branch**  
    It’s essential to create a new branch before making any changes. This helps keep your work isolated:
+
    ```bash
    git checkout -b feature-branch-name
    ```
@@ -34,6 +35,7 @@ We’re excited that you’re interested in contributing to our Healthcare Platf
 
 3. **Commit Your Changes**  
    Commit with meaningful messages that explain the "why" behind the changes:
+
    ```bash
    git add .
    git commit -m "Add feature X to healthcare services"
@@ -59,6 +61,7 @@ We’re excited that you’re interested in contributing to our Healthcare Platf
 ## 🌐 Areas for Contribution
 
 There are several key areas where you can make a difference:
+
 - **Payment System Integration** for seamless transactions.
 - **Video Consulting Features** for more personalized care.
 - **Real-Time Health Monitoring** by integrating with wearables.
@@ -73,12 +76,8 @@ We also welcome **new feature ideas**, **bug fixes**, and **performance improvem
 - Write clean and well-structured code, adhering to the best practices for HTML, CSS, JavaScript, and Docker.
 - Test your code before submitting it to ensure everything works smoothly.
 
-
 ## 📝 Additional Resources
 
 - [GitHub Documentation](https://docs.github.com) for help with Git and GitHub.
 
 Thank you for helping us to make healthcare more accessible! Your efforts and ideas can make a real difference.
-
-
-
