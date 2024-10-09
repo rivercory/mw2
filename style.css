@@ -484,7 +484,7 @@ section {
     background: linear-gradient(106deg, #858383, #ffffff);
     border: none;
     padding: 20px 20px 20px 20px;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.2s;
     width: 95%;
     border-radius: 4%;
 }
@@ -675,5 +675,5 @@ textarea {
 }
 
 #gallery .image-container:hover img {
-    transform: scale(1.5);
+    transform: scale(0.8);
 }
