@@ -1,5 +1,4 @@
 :root {
-    --blue: #4385a9;
     --black: #000000;
     --white: #ffffff;
 }
@@ -8,7 +7,6 @@
     font-family: "Poppins", Arial, sans-serif;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .2s linear;
 }
 
 html {
@@ -45,27 +43,27 @@ label.active:before {
 }
 
 body.night {
-    background: #262626;
+    background: #1f2937;
     color: #fff;
 }
 
 body.night .icons-container {
-    background: #262626;
+    background: #1f2937;
     color: #fff;
 }
 
 body.night .bg-boz {
-    background: #262626;
+    background: #1f2937;
     color: #fff;
 }
 
 body.night header {
-    background: #262626;
+    background: #1f2937;
     color: #fff;
 }
 
 body.night header a {
-    color: #262626;
+    color: #1f2937;
     color: #fff;
 }
 
@@ -126,32 +124,26 @@ header {
 
 .dark-btn-navbar {
     padding-left: 6em;
+    margin-left: 2em;
     margin-bottom: 5em;
 }
 
 header .navbar a {
     font-size: 2rem;
-    padding: 0 1.5rem;
+    padding: 1rem;
     color: #282727;
 }
 
 .navbar a {
     color: black;
     text-decoration: none;
-    padding: 5px 18px;
+    padding: 1rem;
     font-size: 1.6rem;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: var(--blue);
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-
-}
-
-header #toggler {
-    display: none;
+    color: #007bff;
 }
 
 header .fa-bars {
@@ -213,30 +205,16 @@ header .fa-bars {
     padding-bottom: 3rem;
 }
 
-.about .row .video-container {
+.video-container {
     flex: 1 1 40rem;
     position: relative;
 }
 
-.about .row .video-container video {
+.video-container video {
     width: 100%;
-    border: 1.5rem solid #fffefe;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     height: 100%;
+    padding: 1rem;
     object-fit: cover;
-}
-
-.about .row .video-container h3 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 3rem;
-    background: #fff;
-    width: 100%;
-    padding: 1rem 2rem;
-    text-align: center;
-    mix-blend-mode: screen;
 }
 
 .about .row .content {
@@ -293,7 +271,7 @@ ul {
 }
 
 ul li .nav-link:hover {
-    background: var(--blue);
+    background: #007bff;
     color: white;
     border-radius: 30px;
     transition: all 0.5s;
@@ -308,7 +286,7 @@ ul li .nav-link:hover {
 
 .circle {
     position: absolute;
-    background-color: var(--blue);
+    background-color: #007bff;
     height: 370px;
     width: 370px;
     top: -20px;
@@ -331,7 +309,7 @@ ul li .nav-link:hover {
 }
 
 .bg-mavi {
-    background-color: var(--blue)
+    background-color: #007bff;
 }
 
 .bg-goy {
@@ -339,11 +317,11 @@ ul li .nav-link:hover {
 }
 
 .bg-boz {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 .text-mavi {
-    color: var(--blue)
+    color: #007bff;
 }
 
 .vh-50 {
